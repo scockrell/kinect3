@@ -63,23 +63,79 @@ CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/clie
 CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml
 CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml
 CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml
-CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/openni_kinect/openni/manifest.xml
-CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/openni_kinect/nite/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /home/stephanie/openni_kinect/openni_kinect/openni/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /home/stephanie/openni_kinect/openni_kinect/nite/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/ros/tools/rosclean/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosgraph/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosparam/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosmaster/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosout/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/roslaunch/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/ros/tools/rosunit/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rostest/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/topic_tools/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosbag/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosbagmigration/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/geometry_msgs/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/bullet/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/geometry/angles/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosnode/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosmsg/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rostopic/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/rosservice/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/utilities/roswtf/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/utilities/message_filters/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/geometry/tf/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/eigen/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/laser_pipeline/laser_geometry/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/navigation/voxel_grid/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/nav_msgs/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/visualization_msgs/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common/yaml_cpp/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/navigation/map_server/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/perception_pcl/cminpack/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/perception_pcl/flann/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/perception_pcl/pcl/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/pluginlib/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/bond_core/bond/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/bond_core/smclib/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/bond_core/bondcpp/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/nodelet_core/nodelet/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/nodelet_core/nodelet_topic_tools/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/driver_common/dynamic_reconfigure/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/perception_pcl/pcl_ros/manifest.xml
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/navigation/costmap_2d/manifest.xml
 CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated
 CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
 CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated
 CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/ros_comm/tools/topic_tools/srv_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/geometry_msgs/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/sensor_msgs/srv_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/geometry/tf/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/geometry/tf/srv_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/nav_msgs/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/nav_msgs/srv_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/common_msgs/visualization_msgs/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/perception_pcl/pcl/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/bond_core/bond/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/nodelet_core/nodelet/srv_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/driver_common/dynamic_reconfigure/msg_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/driver_common/dynamic_reconfigure/srv_gen/generated
+CMakeFiles/calibrate.dir/src/Calibrate.o: /opt/ros/electric/stacks/navigation/costmap_2d/msg_gen/generated
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/stephanie/code/dev_stacks/kinect/topdown/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/calibrate.dir/src/Calibrate.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/calibrate.dir/src/Calibrate.o -c /home/stephanie/code/dev_stacks/kinect/topdown/src/Calibrate.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/calibrate.dir/src/Calibrate.o -c /home/stephanie/code/dev_stacks/kinect/topdown/src/Calibrate.cpp
 
 CMakeFiles/calibrate.dir/src/Calibrate.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibrate.dir/src/Calibrate.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/stephanie/code/dev_stacks/kinect/topdown/src/Calibrate.cpp > CMakeFiles/calibrate.dir/src/Calibrate.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/stephanie/code/dev_stacks/kinect/topdown/src/Calibrate.cpp > CMakeFiles/calibrate.dir/src/Calibrate.i
 
 CMakeFiles/calibrate.dir/src/Calibrate.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibrate.dir/src/Calibrate.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/stephanie/code/dev_stacks/kinect/topdown/src/Calibrate.cpp -o CMakeFiles/calibrate.dir/src/Calibrate.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/stephanie/code/dev_stacks/kinect/topdown/src/Calibrate.cpp -o CMakeFiles/calibrate.dir/src/Calibrate.s
 
 CMakeFiles/calibrate.dir/src/Calibrate.o.requires:
 .PHONY : CMakeFiles/calibrate.dir/src/Calibrate.o.requires

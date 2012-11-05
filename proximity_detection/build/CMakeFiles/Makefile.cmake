@@ -32,6 +32,9 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-2.8/Modules/CheckFunctionExists.cmake"
   "/usr/share/cmake-2.8/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-2.8/Modules/Compiler/GNU-CXX.cmake"
+  "/usr/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-2.8/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-2.8/Modules/FindPythonInterp.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/UnixPaths.cmake"
   "/usr/share/cmake-2.8/Modules/Platform/gcc.cmake"
@@ -67,4 +70,5 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test-results.dir/DependInfo.cmake"
   "CMakeFiles/test-results-run.dir/DependInfo.cmake"
   "CMakeFiles/tests.dir/DependInfo.cmake"
+  "CMakeFiles/xn_test.dir/DependInfo.cmake"
   )

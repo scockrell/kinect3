@@ -33,3 +33,4 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 rosbuild_add_executable(PixelDepthSample src/PixelDepthSample.cpp)
 rosbuild_add_executable(lidar_output src/lidar_output.cpp)
+rosbuild_add_executable(xn_test src/xn_test.cpp)

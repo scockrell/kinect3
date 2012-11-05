@@ -316,6 +316,19 @@ tests/fast:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
+#=============================================================================
+# Target rules for targets named xn_test
+
+# Build rule for target.
+xn_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 xn_test
+.PHONY : xn_test
+
+# fast build rule for target.
+xn_test/fast:
+	$(MAKE) -f CMakeFiles/xn_test.dir/build.make CMakeFiles/xn_test.dir/build
+.PHONY : xn_test/fast
+
 # target to build an object file
 src/PixelDepthSample.o:
 	$(MAKE) -f CMakeFiles/PixelDepthSample.dir/build.make CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o
@@ -346,6 +359,21 @@ src/lidar_output.s:
 	$(MAKE) -f CMakeFiles/lidar_output.dir/build.make CMakeFiles/lidar_output.dir/src/lidar_output.s
 .PHONY : src/lidar_output.s
 
+# target to build an object file
+src/xn_test.o:
+	$(MAKE) -f CMakeFiles/xn_test.dir/build.make CMakeFiles/xn_test.dir/src/xn_test.o
+.PHONY : src/xn_test.o
+
+# target to preprocess a source file
+src/xn_test.i:
+	$(MAKE) -f CMakeFiles/xn_test.dir/build.make CMakeFiles/xn_test.dir/src/xn_test.i
+.PHONY : src/xn_test.i
+
+# target to generate assembly for a file
+src/xn_test.s:
+	$(MAKE) -f CMakeFiles/xn_test.dir/build.make CMakeFiles/xn_test.dir/src/xn_test.s
+.PHONY : src/xn_test.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -371,12 +399,16 @@ help:
 	@echo "... test-results"
 	@echo "... test-results-run"
 	@echo "... tests"
+	@echo "... xn_test"
 	@echo "... src/PixelDepthSample.o"
 	@echo "... src/PixelDepthSample.i"
 	@echo "... src/PixelDepthSample.s"
 	@echo "... src/lidar_output.o"
 	@echo "... src/lidar_output.i"
 	@echo "... src/lidar_output.s"
+	@echo "... src/xn_test.o"
+	@echo "... src/xn_test.i"
+	@echo "... src/xn_test.s"
 .PHONY : help
 
 

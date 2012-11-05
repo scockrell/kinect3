@@ -1,0 +1,27 @@
+<package>
+  <description brief="sample_data_capture">
+
+     sample_data_capture
+
+  </description>
+  <author>stephanie</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sample_data_capture</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="nite"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+
+<depend package="opencv2"/>
+<depend package="image_geometry"/>
+<depend package="tf"/>
+<depend package="cv_bridge"/>
+<depend package="geometry_msgs"/>
+<depend package="image_proc"/>
+
+</package>
+
+

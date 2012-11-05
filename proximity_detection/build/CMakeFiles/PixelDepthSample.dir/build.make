@@ -63,8 +63,8 @@ CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks
 CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml
 CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml
 CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml
-CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/openni_kinect/openni/manifest.xml
-CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/openni_kinect/nite/manifest.xml
+CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /home/stephanie/openni_kinect/openni_kinect/openni/manifest.xml
+CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /home/stephanie/openni_kinect/openni_kinect/nite/manifest.xml
 CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated
 CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
 CMakeFiles/PixelDepthSample.dir/src/PixelDepthSample.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated

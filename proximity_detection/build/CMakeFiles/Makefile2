@@ -587,6 +587,41 @@ clean: CMakeFiles/tests.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/xn_test.dir
+
+# All Build rule for target.
+CMakeFiles/xn_test.dir/all: CMakeFiles/rosbuild_precompile.dir/all
+	$(MAKE) -f CMakeFiles/xn_test.dir/build.make CMakeFiles/xn_test.dir/depend
+	$(MAKE) -f CMakeFiles/xn_test.dir/build.make CMakeFiles/xn_test.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/stephanie/code/dev_stacks/kinect/proximity_detection/build/CMakeFiles  3
+	@echo "Built target xn_test"
+.PHONY : CMakeFiles/xn_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/xn_test.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/xn_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stephanie/code/dev_stacks/kinect/proximity_detection/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/xn_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stephanie/code/dev_stacks/kinect/proximity_detection/build/CMakeFiles 0
+.PHONY : CMakeFiles/xn_test.dir/rule
+
+# Convenience name for target.
+xn_test: CMakeFiles/xn_test.dir/rule
+.PHONY : xn_test
+
+# clean rule for target.
+CMakeFiles/xn_test.dir/clean:
+	$(MAKE) -f CMakeFiles/xn_test.dir/build.make CMakeFiles/xn_test.dir/clean
+.PHONY : CMakeFiles/xn_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/xn_test.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

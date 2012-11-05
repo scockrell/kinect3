@@ -63,8 +63,8 @@ CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/ros_com
 CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml
 CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml
 CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml
-CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/openni_kinect/openni/manifest.xml
-CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/openni_kinect/nite/manifest.xml
+CMakeFiles/lidar_output.dir/src/lidar_output.o: /home/stephanie/openni_kinect/openni_kinect/openni/manifest.xml
+CMakeFiles/lidar_output.dir/src/lidar_output.o: /home/stephanie/openni_kinect/openni_kinect/nite/manifest.xml
 CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated
 CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated
 CMakeFiles/lidar_output.dir/src/lidar_output.o: /opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated

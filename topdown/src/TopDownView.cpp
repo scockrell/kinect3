@@ -27,6 +27,10 @@
 #include </opt/ros/electric/stacks/common_msgs/sensor_msgs/msg_gen/cpp/include/sensor_msgs/LaserScan.h>
 //#include <sensor_msgs/LaserScan.h>
 
+// add this for the costmap stuff
+#include <costmap_2d/costmap_2d_ros.h>
+#include <tf/transform_listener.h>
+
 using namespace std;
 //using namespace sensor_msgs;
 
@@ -167,6 +171,11 @@ int _tmain(int argc, _TCHAR* argv[]){
 	ros::Time scan_time;
 	sensor_msgs::LaserScan scan;
 
+	// for costmap
+	tf::TransformListener tf_;
+	costmap_2d::Costmap2DROS *local_costmap_;
+	local_costmap_ = new costmap_2d::Costmap2DROS("local_costmap", tf_); 
+
 	printf("got ther eline 138\n");
 	// Main loop
 	while(count_iterations<1)
@@ -267,9 +276,10 @@ int _tmain(int argc, _TCHAR* argv[]){
 
 		// write to file
 		ofstream myfile;
+		//myfile.open ("~/code/dev_stacks/kinect/topdown/topdownview.txt");
 		myfile.open ("topdownview.txt");
 		if(!myfile){
-			printf("oh my goodness, the file didn't open\n");
+			printf("oh my goodness, the file didn't open (topdownview.txt)\n");
 		}
 		for(int i=0;i<finalXRes; i++){
 			for(int j=0; j<finalZRes; j++){

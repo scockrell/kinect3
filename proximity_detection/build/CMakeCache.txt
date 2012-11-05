@@ -167,6 +167,9 @@ LIBRARY_OUTPUT_PATH:PATH=
 //Path to a file.
 PROJECTCONFIG:FILEPATH=PROJECTCONFIG-NOTFOUND
 
+//Path to a program.
+PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python2.6
+
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/stephanie/code/dev_stacks/kinect/proximity_detection/build
 
@@ -183,7 +186,7 @@ TOOLCHAINCONFIG:FILEPATH=TOOLCHAINCONFIG-NOTFOUND
 USERCONFIG:FILEPATH=USERCONFIG-NOTFOUND
 
 //Path to a file.
-_file_name:FILEPATH=/home/stephanie/code/dev_stacks/kinect/proximity_detection/src/lidar_output.cpp
+_file_name:FILEPATH=/home/stephanie/code/dev_stacks/kinect/proximity_detection/src/xn_test.cpp
 
 //Value Computed by CMake
 proximity_detection_BINARY_DIR:STATIC=/home/stephanie/code/dev_stacks/kinect/proximity_detection/build
@@ -316,10 +319,14 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PythonInterp
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python2.6]
+//ADVANCED property for variable: PYTHON_EXECUTABLE
+PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 _rosbuild_EXPORTS:INTERNAL=
-_rosbuild_cached_flag_time:INTERNAL=1328888716.2
+_rosbuild_cached_flag_time:INTERNAL=1346943441.79
 _roslang_LANGS:INTERNAL=rospy;roslisp;roscpp
-_rospack_deps_manifests_invoke_result:INTERNAL=/opt/ros/electric/ros/tools/rospack/manifest.xml;/opt/ros/electric/ros/core/roslib/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/std_msgs/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml;/opt/ros/electric/ros/core/rosbuild/manifest.xml;/opt/ros/electric/ros/core/roslang/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/rospy/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/rostime/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml;/opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml;/opt/ros/electric/stacks/openni_kinect/openni/manifest.xml;/opt/ros/electric/stacks/openni_kinect/nite/manifest.xml
+_rospack_deps_manifests_invoke_result:INTERNAL=/opt/ros/electric/ros/tools/rospack/manifest.xml;/opt/ros/electric/ros/core/roslib/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/std_msgs/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml;/opt/ros/electric/ros/core/rosbuild/manifest.xml;/opt/ros/electric/ros/core/roslang/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/rospy/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/rostime/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml;/opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml;/home/stephanie/openni_kinect/openni_kinect/openni/manifest.xml;/home/stephanie/openni_kinect/openni_kinect/nite/manifest.xml
 _rospack_msgsrv_gen_invoke_result:INTERNAL=/opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
 proximity_detection_CFLAGS_OTHER:INTERNAL=
 proximity_detection_INCLUDEDIR:INTERNAL=
@@ -327,7 +334,7 @@ proximity_detection_INCLUDE_DIRS:INTERNAL=/opt/ros/electric/stacks/ros_comm/clie
 proximity_detection_LDFLAGS_OTHER:INTERNAL=-Wl,-rpath,/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/lib -Wl,-rpath,/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/lib -Wl,-rpath,/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/lib -Wl,-rpath,/opt/ros/electric/stacks/ros_comm/tools/rosconsole/lib -Wl,-rpath,/opt/ros/electric/stacks/ros_comm/utilities/rostime/lib -Wl,-rpath,/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/lib -Wl,-rpath,/opt/ros/electric/ros/core/roslib/lib -Wl,-rpath,/opt/ros/electric/ros/tools/rospack/lib
 proximity_detection_LIBRARIES:INTERNAL=ros;boost_signals-mt;roscpp_serialization;XmlRpc;rosconsole;boost_thread-mt;log4cxx;rostime;cpp_common;roslib;rospack;rosstack;OpenNI;usb-1.0
 proximity_detection_LIBRARY_DIRS:INTERNAL=/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/lib;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/lib;/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/lib;/opt/ros/electric/stacks/ros_comm/tools/rosconsole/lib;/opt/ros/electric/stacks/ros_comm/utilities/rostime/lib;/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/lib;/opt/ros/electric/ros/core/roslib/lib;/opt/ros/electric/ros/tools/rospack/lib
-proximity_detection_cached_manifest_list:INTERNAL=/home/stephanie/code/dev_stacks/kinect/proximity_detection/manifest.xml;/opt/ros/electric/ros/tools/rospack/manifest.xml;/opt/ros/electric/ros/core/roslib/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/std_msgs/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml;/opt/ros/electric/ros/core/rosbuild/manifest.xml;/opt/ros/electric/ros/core/roslang/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/rospy/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/rostime/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml;/opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml;/opt/ros/electric/stacks/openni_kinect/openni/manifest.xml;/opt/ros/electric/stacks/openni_kinect/nite/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
+proximity_detection_cached_manifest_list:INTERNAL=/home/stephanie/code/dev_stacks/kinect/proximity_detection/manifest.xml;/opt/ros/electric/ros/tools/rospack/manifest.xml;/opt/ros/electric/ros/core/roslib/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/std_msgs/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/manifest.xml;/opt/ros/electric/ros/core/rosbuild/manifest.xml;/opt/ros/electric/ros/core/roslang/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/rospy/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_traits/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/rostime/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/manifest.xml;/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/manifest.xml;/opt/ros/electric/stacks/ros_comm/tools/rosconsole/manifest.xml;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/manifest.xml;/home/stephanie/openni_kinect/openni_kinect/openni/manifest.xml;/home/stephanie/openni_kinect/openni_kinect/nite/manifest.xml;/opt/ros/electric/stacks/ros_comm/messages/std_msgs/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/messages/rosgraph_msgs/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/msg_gen/generated;/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/srv_gen/generated
 proximity_detection_temp:INTERNAL=-Wl,-rpath,/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/lib;-Wl,-rpath,/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp_serialization/lib;-Wl,-rpath,/opt/ros/electric/stacks/ros_comm/utilities/xmlrpcpp/lib;-Wl,-rpath,/opt/ros/electric/stacks/ros_comm/tools/rosconsole/lib;-Wl,-rpath,/opt/ros/electric/stacks/ros_comm/utilities/rostime/lib;-Wl,-rpath,/opt/ros/electric/stacks/ros_comm/utilities/cpp_common/lib;-Wl,-rpath,/opt/ros/electric/ros/core/roslib/lib;-Wl,-rpath,/opt/ros/electric/ros/tools/rospack/lib
 roscpp_CMAKE:INTERNAL=/opt/ros/electric/stacks/ros_comm/clients/cpp/roscpp/cmake/roscpp.cmake
 roslib_path:INTERNAL=/opt/ros/electric/ros/core/roslib
